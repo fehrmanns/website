@@ -14,7 +14,13 @@
   }
 }
 body {
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 979px) {
+  body {
+    padding-top: 0;
+  }
 }
 .hero-unit h1 {
   line-height: 1.2em;

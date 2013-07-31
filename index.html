@@ -1,26 +1,20 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if lt IE 7]>      <html lang="de" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="de" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="de" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 
-<html class="no-js">
+<html lang="de" class="no-js">
 <!--<![endif]-->
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title></title>
+    <title>fehrmanns.agentur für design- & kommunikationsprodukte</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <style type="text/css">
-        body {
-                padding-top: 60px;
-                padding-bottom: 40px;
-            }
-    </style>
     <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap-glyphicons.css" type="text/css">
     <link rel="stylesheet" href="css/animations.css" type="text/css">
@@ -28,79 +22,134 @@
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.js" type="text/javascript"></script>
 </head>
 
-<body>
-    <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-    <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-
-    <div class="navbar navbar-inverse navbar-fixed-top">
+<body cz-shortcut-listen="true">
+    <div class="container-fluid">
+    <div class="navbar">
         <div class="navbar-inner">
-            <div class="container">
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></a> <a class="brand" href="#">fehrmanns <!--agentur für
-design- & kommunikationsprodukte--></a>
-
+            <div class="container-fluid">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="brand" href="#">fehrmanns.</a>
                 <div class="nav-collapse collapse">
+                    <p class="navbar-text pull-right">
+                        Logged in as <a href="#" class="navbar-link">Username</a>
+                    </p>
                     <ul class="nav">
-                        <li class="active"><a href="#">Home</a></li>
-
-                        <li><a href="#about">About</a></li>
-
-                        <li><a href="#contact">Contact</a></li>
-
+                        <li class="active"><a href="#">agentur</a></li>
+                        <li><a href="#about">offline</a></li>
+                        <li><a href="#online">online</a></li>
+                        <li><a href="#druck">druck</a></li>
+                        <li><a href="#produkte">produkte</a></li>
+                        <li><a href="#contact">kontakt</a></li>
+                        <li><a href="#impressum">impressum</a></li>
                     </ul>
-
-                    <form class="navbar-form pull-right">
-                        <input class="span2" type="text" placeholder="Email"> <input class="span2" type="password" placeholder="Password"> <button type="submit" class="btn">Sign in</button>
-                    </form>
                 </div><!--/.nav-collapse -->
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <!-- Main hero unit for a primary marketing message or call to action -->
 
-        <div class="hero-unit hidden-sm">
-            <h1>fehrmanns.agentur für design- & kommunikationsprodukte</h1>
+    <!--[if lt IE 7] -->
+    <div class="alert noclose">
+        <p class="chromeframe"><i class="icon-info-sign"></i> Sie benutzen einen <strong>veralteten</strong> Browser. Bitte <a href="http://browsehappy.com/">aktualisieren Sie Ihren Browser</a> oder nutzen den <a href="http://www.google.com/chromeframe/?redirect=true">Google Chrome Frame</a> für ein besseres Surfen.</p>
+    </div>
+    <!-- [endif]-->
 
-            <p>Wir alle sind Bestandteil der digitalen Gesellschaft. fehrmanns.agentur versteht sich als Ideenschmiede in diesem Bereich. Unser Wissen möchten wir mit Ihnen teilen. Ob für Ihre Unternehmung oder in Form einer unserer Produkte.</p>
-            
-            <h2>Sprechen Sie mit uns: 030 692 0440 80</h2>
-			
-        </div><!-- Example row of columns -->
-
-        <div class="row">
-            <div class="span4">
-                <h2>Heading</h2>
-				<img src="..." class="img-responsive" alt="Reponsive image">
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-
-                <p><a class="btn" href="#">View details &raquo;</a></p>
+    <div class="row-fluid">
+        <div class="span3">
+            <div class="well sidebar-nav">
+                <img class="sidebarlogo" src="img/fehrmanns_logo.png" class="img-responsive" alt="Reponsive image">
+                <ul class="nav nav-list">
+                    <li class="nav-header">fehrmanns</li>
+                    <li class="active"><a href="#">agentur</a></li>
+                    <li><a href="#about">offline</a></li>
+                    <li><a href="#online">online</a></li>
+                    <li><a href="#druck">druck</a></li>
+                    <li><a href="#produkte">produkte</a></li>
+                    <li><a href="#contact">kontakt</a></li>
+                    <li><a href="#impressum">impressum</a></li>
+                </ul>
+            </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span9">
+            <div class="hero-unit">
+                <h1>fehrmanns agentur für design- & kommunikations-produkte</h1>
+                <p>Wir alle sind Bestandteil der digitalen Gesellschaft. fehrmanns.agentur versteht sich als Ideenschmiede in diesem Bereich. Unser Wissen möchten wir mit Ihnen teilen. Ob für Ihre Unternehmung oder in Form einer unserer Produkte.</p>
             </div>
-
-            <div class="span4">
-                <h2>Heading</h2>
-				<img src="..." class="img-responsive" alt="Reponsive image">
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-
-                <p><a class="btn" href="#">View details &raquo;</a></p>
+            <div class="row-fluid">
+                <div class="span4 well">
+                    <img src="http://placehold.it/288x162" class="img-responsive img-rounded" alt="Reponsive image">
+                    <h2>offline</h2>
+                    <h3>Beratung</h3>
+                    <p>Sie haben Fragen zu den 'neuen' Medien oder zur Kundenkommunikation? Gerne sind wir zu einem Gespräch bereit. Wir bitten jedoch um Verständnis, dass Sie das Essen bezahlen werden.</p>
+                    <h3>Konzeption</h3>
+                    <p>Damit Sie Ihre Ziele erreichen, lassen wir uns etwas einfallen. Erst suchen wir Ihre Nähe, dann ziehen wir uns zurück. Wenn wir wieder auftauchen, haben wir einen Stapel frischer Ideen dabei.</p>
+                    <p><a class="btn" href="#">View details »</a></p>
+                </div><!--/span-->
+                <div class="span4 well">
+                    <img src="http://placehold.it/288x162" class="img-responsive img-rounded" alt="Reponsive image">
+                    <h2>online</h2>
+                    <p>Sie haben ein Produkt oder eine Unternehmung und benötigen eine Internet-Plattform?<br>Gerne begleiten wir Sie bei der Ideenfindung, Konzeption, sowie der Umsetzung bis zur Erfüllung Ihrer Zielsetzung.<br><br>Angefangen von dem Wunsch nach einer eigenen Homepage, über SEO oder auch Social Media bis zur Eventbetreuung: fehrmanns.agentur entwickelt Ihren Unternehmensauftritt.</p>
+                    <p><a class="btn" href="#">View details »</a></p>
+                </div><!--/span-->
+                <div class="span4 well">
+                    <img src="http://placehold.it/288x162" class="img-responsive img-rounded" alt="Reponsive image">
+                    <h2>druck</h2>
+                    <p>Produkflyer, Visiten- & Einladungskarten, Plakate, Banner, Briefpapier, Kundestopper, Faltblätter, Aufkleber, Magazine...haben wir etwas vergessen?<div class="well">030 692 0440 80</div>Alles aus einem Guss, natürlich und so geschmacklich gestaltet, dass der Wie­der­er­ken­nungs­wert Ihrs Unternehmens gegeben ist. Angemessen bis zum Namensschild repräsentiert, auf Ihr Unternehmen abgestimmt: fehrmanns.agentur entwickelt und setzt um.</p>
+                    <p><a class="btn" href="#">View details »</a></p>
+                </div><!--/span-->
+            </div><!--/row-->
+            <div class="row-fluid">
+                    <h2>produkte</h2>
+                <div class="row-fluid">
+                    <div class="span4 well">
+                        <img src="http://placehold.it/288x162" class="img-responsive img-rounded" alt="Reponsive image">
+                        <h3>fehrmanns.newsletter</h3>
+                        <p>ist eine E-Mail Marketing Software, mit der Sie online ganz einfach eigene Newsletter erstellen, versenden und auswerten können. Holen Sie sich Ihren kostenlosen Account.</p>
+                    </div>
+                    <div class="span4 well">
+                        <img src="http://placehold.it/288x162" class="img-responsive img-rounded" alt="Reponsive image">
+                        <h3>fehrmanns.track&trace</h3>
+                        <p>ist das erste bezahlbare Track- und Trace-System, das sich auszahlt und bei dem Sie nicht an Abokosten gebunden sind. Europaweite Abdeckung ohne zusätzliche Roamingkosten inklusive.</p>
+                    </div>
+                    <div class="span4 well">
+                        <img src="http://placehold.it/288x162" class="img-responsive img-rounded" alt="Reponsive image">
+                        <h3>fehrmanns.invite_check</h3>
+                        <p>dient zur Kontrolle der eingeladenen Gäste. Ab einer bestimmten Anzahl von Gästen kann es unübersichtlich werden. Der invite_check liefert klare Antworten über die Launen der geladenen.</p>
+                    </div>
+                </div>
             </div>
-
-            <div class="span4">
-                <h2>Heading</h2>
-				<img src="..." class="img-responsive" alt="Reponsive image">
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-
-                <p><a class="btn" href="#">View details &raquo;</a></p>
+            <div class="row-fluid show-grid">
+                <h2>André Fehrmann</h2>
+                <div class="row-fluid">
+                <div class="span5">
+                    <img src="http://placehold.it/380x480" class="img-responsive img-rounded" alt="Reponsive image">
+                </div>
+                <div class="span7">
+                    <p>All you need to know about 'fehrmanns' in one page. -> [link to github]</p><p>André Fehrmann ist Bachelor of Arts in Virtual Design und seit 2010 bei Firmen mit Bezug zum Internet in Berlin als freiberuflicher User Interface Engineer [Link zu LinkedIn] tätig.</p><p>Sein Studium absolvierte er in der idyllischen Saar-Pfalz und finanzierte dieses mit einer Tätigkeit als Supportler bei der 1&1 Internet AG und wurde danach in Berlin ansässig.</p><p>Aus familiären Gründen zieht es ihn nun langsam in die heimatlichen Gefilden im Deister zurück, um für Sie in der Ruhe der Natur die famosesten Ideen zu erarbeiten.</p>
+                </div>
+                </div>
             </div>
-        </div>
-		       
-		<form id='sampleform' method='post' action='' >
-		   <p>Name: <input type='text' name='Name' /></p>
-		   <p>Email: <input type='text' name='Email' /></p>
-		   <p><input class="btn" type='submit' name='Submit' value='Submit' /></p>
-		</form>
+            <div class="row-fluid show-grid">
+                <h2>niederlassungen</h2>
+                <div class="row-fluid">
+                <div class="span6 well">
+                    <h2>fehrmanns@betahaus</h2>
+                    <img src="http://placehold.it/445x290" class="img-responsive img-rounded" alt="Reponsive image">
+                    <p>Meetings mit Kaffee und Keksen.</p>
+                </div>
+                <div class="span6 well">
+                    <h2>fehrmanns.thinktank</h2>
+                    <img src="http://placehold.it/445x290" class="img-responsive img-rounded" alt="Reponsive image">
+                    <p>Kundenverkehr nur nach Einladung.</p>
+                </div>
+                </div><!--/row-->
+            </div><!--/row-->
+        </div><!--/span-->
+    </div><!--/row-->
 		        
         <hr>
 

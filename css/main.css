@@ -13,6 +13,19 @@
     font-size: 100%;
   }
 }
+body {
+  padding-bottom: 40px;
+}
 .hero-unit h1 {
   line-height: 1.2em;
+  text-align: left;
+}
+.alert.noclose {
+  padding: 8px 14px;
+}
+p.chromeframe {
+  margin-bottom: 0;
+}
+.sidebarlogo {
+  margin-bottom: 2.2em;
 }
